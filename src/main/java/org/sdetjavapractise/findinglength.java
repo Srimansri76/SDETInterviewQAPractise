@@ -48,3 +48,46 @@ public class findinglength {
     }
 }
 
+
+
+// Indirect way to find length without using length() method
+
+
+
+//public class StringLengthWithoutLength {
+//    public static void main(String[] args) {
+//        String str = "SDET Java";
+//
+//        int count = 0;
+//        try {
+//            while (true) {
+//                str.charAt(count); // try accessing each index
+//                count++;
+//            }
+//        } catch (Exception e) {
+//            // When index goes out of bound, loop stops
+//        }
+//
+//        System.out.println("Length of string is: " + count);
+//    }
+//}
+
+
+
+// Another way to find length using length() method
+
+//public class StringLengthWithoutLength {
+//    public static void main(String[] args) {
+//        String str = "SDET Java";
+//
+//        // Convert string to char array
+//        char[] charArray = str.toCharArray();
+//
+//        int count = 0;
+//        for (char c : charArray) {
+//            count++;   // increment for each character
+//        }
+//
+//        System.out.println("Length of string is: " + count);
+//    }
+//}
